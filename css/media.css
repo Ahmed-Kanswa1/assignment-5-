@@ -1,0 +1,204 @@
+@media all and (max-width:600px){
+    body:has(.home:target) li a[href="#home"]::before ,body:has(.about:target) li a[href="#about"]::before
+,body:has(.service:target) li a[href="#service"]::before,body:has(.work:target) li a[href="#work"]::before,body:has(.blog:target) li a[href="#blog"]::before,body:has(.contact:target) li a[href="#contact"]::before
+{
+    width: 10%;
+}
+.navbar-nav  a:hover::before {
+    width: 10%;
+}
+
+    .home{
+        background-size: cover;
+        background-position: center;
+    }
+    .home h1{
+        font-size: 45px;
+        width: 80%;
+        margin: auto;
+    }
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 100%;
+        }
+        75%{
+            width: 100%;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    .home .layout span {
+        
+    
+        font-size: 30px !important;
+        font-weight: 600;
+        
+    }
+    .service .layout-statics{
+        height: 110vh;
+    }
+    .service .statics{
+        background-size: 100% 100%;
+        height: 110vh;
+    }
+
+    .shdw .mid-text{
+  
+        
+        transform: translate(250% , -125%) ;
+
+       
+      }
+      .shdw .def{
+        transform: translate(160% , -125%) ;
+    }
+    .contact .contact-body .my-container{
+        height: auto;
+    }
+    .contact{
+        height: auto;
+        
+    }
+    .contact .overlay-contact{
+        padding-bottom: 60px;
+    }
+    .contact .contact-body .my-container .get-in ul li{
+        width: 500px;
+    }
+
+    .sublist{
+     
+        right: 2px;
+        top: 80px;
+        background-color: #fff;
+        border-radius: 10px;
+        z-index: 1;
+        
+    }
+
+
+
+} 
+
+
+
+
+@media all and (min-width:601px) and (max-width:750px){
+    .home{
+        background-size: cover;
+        background-position: center;
+    }
+    .home .layout span {
+        
+    
+        font-size: 30px !important;
+        font-weight: 600;
+        
+    }
+
+    .service .layout-statics{
+        height: 110vh;
+    }
+    .service .statics{
+        background-size: 100% 100%;
+        height: 110vh;
+    }
+    .contact{
+        height: auto;
+        
+    }
+    .contact .contact-body .my-container{
+        height: auto;
+        
+    }
+    .contact .overlay-contact{
+        padding-bottom: 60px;
+    }
+    .contact .contact-body .my-container .get-in ul li{
+        width: 500px;
+    }
+}
+@media all and (min-width:750px) and (max-width:767px)
+{
+    .home{
+        background-size: auto;
+        background-position: center;
+    }
+    .contact{
+        height: auto;
+        
+    }
+    .contact .contact-body .my-container{
+        height: auto;
+      
+    }
+    .contact .overlay-contact{
+        padding-bottom: 60px;
+    }
+    .contact .contact-body .my-container .get-in ul li{
+        width: 500px;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .home{
+        background-size: cover;
+        background-position: center;
+    }
+    .shdw .mid-text{
+  
+        
+        transform: translate(90% , -125%) ;
+
+       
+      }
+      .shdw .def{
+        transform: translate(55% , -125%) ;
+    }
+    .contact{
+        height: auto;
+        
+    }
+    .contact .contact-body .my-container{
+        height: auto;
+        
+    }
+    .contact .overlay-contact{
+        padding-bottom: 60px;
+    }
+    .contact .contact-body .my-container .get-in ul{
+        line-height: 1.9;
+    }
+
+}
+@media all and (min-width:992px) and (max-width:1398px){
+    .home{
+        background-size: cover;
+        background-position: center;
+    }
+    .shdw .mid-text{
+  
+        
+        transform: translate(170% , -125%) ;
+
+       
+      }
+      .shdw .def{
+        transform: translate(115% , -125%) ;
+    }
+}
+@media all and (min-width:550px) and (max-width:767px){
+    .shdw .mid-text{
+  
+        
+        transform: translate(285% , -125%) ;
+
+       
+      }
+      .shdw .def{
+        transform: translate(175% , -125%) ;
+    }
+}

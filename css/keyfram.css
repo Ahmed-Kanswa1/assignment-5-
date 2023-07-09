@@ -1,0 +1,129 @@
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 30%;
+    }
+    75%{
+        width: 30%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+/* 
+@keyframes typing {
+    0% {
+        content: "P";
+    }
+    5% {
+        content: "Ph";
+    }
+    10%{
+        content: "Pho";
+    }
+    15%{
+        content: "Phot";
+    }
+    20% {
+        content: "Photo";
+    }
+    25% {
+        content: "PhotoG";
+    } 
+     30% {
+        content: "PhotoGr";
+    }  
+    35% {
+        content: "PhotoGra";
+    } 
+     40% {
+        content: "PhotoGrap";
+    }  
+    45% {
+        content: "PhotoGraph";
+    }
+    45% {
+        content: "PhotoGraphe";
+    }
+    45% {
+        content: "PhotoGrapher";
+    }
+ 
+    50% {
+        content: "D";
+    }
+    55% {
+        content: "De";
+    }
+    60% {
+        content: "Des";
+    }
+    65% {
+        content: "Desi";
+    }
+    70% {
+        content: "Desig";
+    }
+    75% {
+        content: "Design";
+    }
+    80% {
+        content: "Designe";
+    }
+    100% {
+        content: "Designer";
+    }
+    
+    
+} */
+
+.home .layout span {
+    overflow: hidden;
+    border-right: 4px solid #FFF;
+    border-right-color: transparent; /* set initial border color to transparent */
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 2s steps(10, end) infinite,
+               blink 3s infinite; /* add new animation for blinking */
+    animation-delay: 1s;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@keyframes blink {
+    0% {
+        border-right-color: transparent;
+    }
+    10% {
+        border-right-color: #FFF;
+    }
+    20% {
+        border-right-color: transparent;
+    }
+    30% {
+        border-right-color: #FFF;
+    }
+
+    
+    40% {
+        border-right-color: transparent;
+    }
+    50% {
+        border-right-color: #FFF;
+    }
+    60% {
+        border-right-color: transparent;
+    }
+    70% {
+        border-right-color: #FFF;
+    }
+    100% {
+        border-right-color: transparent;
+    }
+}
